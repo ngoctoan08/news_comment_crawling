@@ -46,8 +46,7 @@ class CrawlingThanhnien(CrawlingNews):
             commentData = NewsComment(_id = ObjectId(), content = commentText, reaction = reaction, news_url = url, date_collected = datetime.now())
             commentData.save()
             print(commentData.to_json())
-        time.sleep(2)
-        self.driver.quit()
+        time.sleep(5)
 
  
 

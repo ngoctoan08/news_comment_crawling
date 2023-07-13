@@ -39,8 +39,7 @@ class CrawlingHanoimoi(CrawlingNews):
             return
         else:
             '''Xử lý lấy comment'''
-        time.sleep(2)
-        self.driver.quit()
+        time.sleep(3)
 
  
 

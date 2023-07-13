@@ -82,6 +82,7 @@ class CrawlingVietnamnet(CrawlingNews):
                 commentData.subcomments.append(SubComment(id=ObjectId(), content=subCommentText, reaction=subReact))
             commentData.save()
             print(commentData.to_json())
+        time.sleep(3)
 
 
 

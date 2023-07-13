@@ -26,8 +26,11 @@
     <Compile Include="controllers\CrawlingCand.py" />
     <Compile Include="controllers\CrawlingDantri.py" />
     <Compile Include="controllers\CrawlingNews.py" />
+    <Compile Include="controllers\CrawlingHanoimoi.py" />
+    <Compile Include="controllers\CrawlingThanhnien.py" />
     <Compile Include="controllers\CrawlingVietnamnet.py" />
     <Compile Include="controllers\CrawlingVnexpress.py" />
+    <Compile Include="controllers\CrawlingVtv.py" />
     <Compile Include="main.py" />
     <Compile Include="models\NewsComment.py" />
     <Compile Include="models\NewsUrl.py" />

@@ -80,6 +80,7 @@ class CrawlingVnexpress(CrawlingNews):
                 pass
             commentData.save()
             print(commentData.to_json())
+        time.sleep(3)
 
     def getContent(self, elements):
         tags = elements.find_elements(By.CLASS_NAME, "full_content") if elements.find_elements(By.CLASS_NAME, "full_content") else elements.find_elements(By.CLASS_NAME, "content_more")

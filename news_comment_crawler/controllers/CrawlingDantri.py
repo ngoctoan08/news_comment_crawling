@@ -63,3 +63,5 @@ class CrawlingDantri(CrawlingNews):
                 commentData.save()
                 print(commentData.to_json())
 
+            time.sleep(3)
+
